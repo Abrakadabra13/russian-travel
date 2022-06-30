@@ -1,0 +1,6 @@
+.lead__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+

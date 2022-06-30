@@ -1,0 +1,13 @@
+.cover__text {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .cover__text {
+    max-width: 288px;
+    max-height: 134px;
+  }
+}

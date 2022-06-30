@@ -1,0 +1,53 @@
+.places__card {
+  padding-bottom: 80px;
+  display: grid;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  max-width: 984px;
+  width: 100%;
+  gap: 48px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, max-content);
+  grid-template-areas:
+  "title link"
+  "image paragraph"
+  "image paragraph";
+  align-items: flex-end;
+}
+
+.places__card:last-of-type {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .places__card {
+    gap: 48px 32px;
+  }
+}
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+  .places__card {
+    gap: 48px 32px;
+  }
+}
+
+@media  (min-width: 525px) and (max-width: 768px) {
+  .places__card {
+    gap: 48px 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .places__card {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas:
+    "title"
+    "link"
+    "image"
+    "paragraph";
+    gap: 32px;
+    padding-bottom: 32px;
+  }
+}
