@@ -3,11 +3,19 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  z-index: 1;
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .cover__text {
-    max-width: 288px;
-    max-height: 134px;
+    width: 288px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .cover__text {
+    min-width: 560px;
   }
 }

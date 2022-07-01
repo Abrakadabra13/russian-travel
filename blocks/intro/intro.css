@@ -8,6 +8,19 @@
   max-width: 690px;
 }
 
+@media (min-width: 1281px) {
+  .intro {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .intro {
+    justify-items: left;
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .intro {
     padding-left: 0;
