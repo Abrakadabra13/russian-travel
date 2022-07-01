@@ -4,3 +4,6 @@
   grid-row: 1/4;
 }
 
+.cover__image:hover {
+  opacity: 0.3;
+}
