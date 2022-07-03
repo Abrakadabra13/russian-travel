@@ -1,0 +1,8 @@
+.header__link_ru {
+  text-decoration: none;
+  color: white;
+}
+
+.header__link_ru:focus {
+  text-decoration: underline;
+}

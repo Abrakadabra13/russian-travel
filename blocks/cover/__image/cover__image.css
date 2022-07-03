@@ -1,9 +1,5 @@
 .cover__image {
-  width: 100%;
-  grid-column: 1/4;
-  grid-row: 1/4;
-}
-
-.cover__image:hover {
-  opacity: 0.3;
-}
+    position: relative;
+    z-index: 0;
+    width: 100%;
+  }
